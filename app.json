@@ -34,11 +34,12 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "extra": {
-      "geminiApiKey": "AIzaSyDUJbBiW6-JEwONr_4GAKYudmB2sAt0Tb4",
-      "eas": {
-        "projectId": "36745134-668b-4751-ad15-5c3fc88eb944"
-      }
-    }
+"extra": {
+  "geminiApiKey": "AIzaSyDUJbBiW6-JEwONr_4GAKYudmB2sAt0Tb4",
+  "sttServerUrl": "speech.googleapis.com",
+  "eas": {
+    "projectId": "36745134-668b-4751-ad15-5c3fc88eb944"
+  }
+}
   }
 }

@@ -242,7 +242,7 @@ export default function App() {
     } finally {
       setLoading(false);
     }
-  }, [apiKey, captureBase64, callGemini, speak]);
+  }, [apiKey, captureBase64, callGemini, speak, setLoading, setOutput]);
 
   const handleAsk = useCallback(async (q) => {
     try {
